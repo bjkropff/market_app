@@ -7,7 +7,7 @@
 
     require_once "src/Market.php";
 
-    $server = 'mysql:host=localhost;dbname=_test';
+    $server = 'mysql:host=localhost;dbname=commerce_test';
     $username = 'root';
     $password = 'root';
     $DB = new PDO($server, $username, $password);
